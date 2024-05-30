@@ -86,6 +86,8 @@
 <div class="small-box bg-warning">
 <div class="inner">
 <h3>244</h3>
+<h3>255</h3>
+<h3>266</h3>
 <p>User Registrations</p>
 </div>
 <div class="icon">
