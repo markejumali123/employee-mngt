@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-md-2">
             </div>
+            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
             <div class="col-md-8">
             <div class="form-area">
                 <form method="POST" action="{{ route('employee.store') }}">
