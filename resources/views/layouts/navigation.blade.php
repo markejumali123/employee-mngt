@@ -39,6 +39,15 @@
             </li>
 
             <li class="nav-item">
+                <a href="{{ route('about') }}" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                    <p>
+                        {{ __('Joel-jay-markej') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-circle nav-icon"></i>
                     <p>
