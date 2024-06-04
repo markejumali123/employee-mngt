@@ -42,7 +42,7 @@
                 <a href="{{ route('new.index1') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        {{ __('pssttt') }}
+                        {{ __('reguisterd') }}
                     </p>
                 </a>
             </li>
