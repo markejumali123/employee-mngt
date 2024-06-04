@@ -84,13 +84,14 @@
                             <label>Employee DOB</label>
                             <input type="date" class="form-control" name="dob">
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label>Phone</label>
+                        <div class="col-md-6">
+                            <label>Phone number</label>
                             <input type="text" class="form-control" name="phone">
                         </div>
                     </div>
+
+
+                    <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 mt-3">
                             <input type="submit" class="btn btn-info" value="Register">
