@@ -8,10 +8,10 @@
                     <thead>
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">First Name</th>
-                        <th scope="col">Last Name</th>
-                        <th scope="col">DOB</th>
-                        <th scope="col">Phone</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Admin</th>
                         <th scope="col">Action</th>
                       </tr>
                     </thead>
@@ -19,10 +19,10 @@
                         @foreach ( $employees as $key => $employee )
                         <tr>
                             <td scope="col">{{ ++$key }}</td>
+                            <td scope="col">{{ ++$key }}</td>
                             <td scope="col">{{ $employee->emp_name }}</td>
                             <td scope="col">{{ $employee->emp_name2 }}</td>
-                            <td scope="col">{{ $employee->dob }}</td>
-                            <td scope="col">{{ $employee->phone }}</td>
+
                             <td scope="col">
                             <a href="{{  route('employee.edit', $employee->id) }}">
                             <button class="btn btn-primary btn-sm">
