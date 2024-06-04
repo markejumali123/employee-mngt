@@ -22,10 +22,8 @@
                             <label>Employee DOB</label>
                             <input type="date" class="form-control" name="dob">
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-6">
-                            <label>Phone</label>
+                            <label>Phone number</label>
                             <input type="text" class="form-control" name="phone">
                         </div>
                     </div>
