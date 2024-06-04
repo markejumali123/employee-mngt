@@ -13,7 +13,7 @@ class EmployeeController extends Controller
     {
         $response['employees'] = $this->employee->all();
         return view('pages.index')->with($response);
-    }
+    }    
     
     public function store(Request $request)
     {
@@ -39,4 +39,11 @@ class EmployeeController extends Controller
         $employee->delete();
         return redirect('employee');
     }
+
+    public function index1()
+    {
+        $response['employees'] = $this->employee->all();
+        return view('new.index1')->with($response);
+    }
+   
 }
