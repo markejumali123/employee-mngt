@@ -42,6 +42,17 @@
 
 
 
+<<<<<<< HEAD
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-circle nav-icon"></i>
+                    
+                        </a>
+                    </li>
+                </ul>
+            </li>
+=======
+>>>>>>> 01ff406029f3a8c9c1b8ac88cf56f925aaaa9a96
         </ul>
     </nav>
     <!-- /.sidebar-menu -->

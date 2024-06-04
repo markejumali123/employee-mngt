@@ -1,5 +1,14 @@
 @extends('layouts.app')
 @section('content')
+<<<<<<< HEAD
+
+
+
+
+    <div class="container">
+        <h3 align="center" class="mt-5">Hello Hikarat</h3>
+        <div class="row">
+=======
 <table class="table mt-5">
     <button><a href="http://127.0.0.1:8000/pages" class="small-box-footer">Add<i class="fas fa-arrow-circle-right"></i></a></button>
 </table>
@@ -41,5 +50,6 @@
                     </tbody>
                   </table>
                   
+>>>>>>> e873dcff59e1e6b89c7167a0893fb3866b28e7d0
             
 @endsection
