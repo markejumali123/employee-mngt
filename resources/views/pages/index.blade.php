@@ -2,30 +2,34 @@
 @section('content')
 
     <div class="container">
-        <h3 align="center" class="mt-5">Employee Registration</h3>
+        <h3 align="left" class="mt-5">BSIT-3A</h3>
         <div class="row">
             <div class="col-md-2">
             </div>
+
+            
+
             <div class="col-md-8">
             <div class="form-area">
+
                 <form method="POST" action="{{ route('employee.store') }}">
                     @csrf
                     <div class="row">
                         <div class="col-md-6">
-                            <label>First Name</label>
+                            <label>Name</label>
                             <input type="text" class="form-control" name="emp_name">
                         </div>
                         <div class="col-md-6">
-                            <label>Last Name</label>
+                            <label>Email</label>
                             <input type="text" class="form-control" name="emp_name2">
                         </div>
                         <div class="col-md-6">
-                            <label>Employee DOB</label>
-                            <input type="date" class="form-control" name="dob">
+                            <label>Password</label>
+                            <input type="text" class="form-control" name="password">
                         </div>
                         <div class="col-md-6">
-                            <label>Phone number</label>
-                            <input type="text" class="form-control" name="phone">
+                            <label>Confirme password</label>
+                            <input type="text" class="form-control" name="password">
                         </div>
                     </div>
 
@@ -59,5 +63,6 @@
             font-size: 18px;
             margin-left: 20px;
         }
+        
     </style>
 @endpush
