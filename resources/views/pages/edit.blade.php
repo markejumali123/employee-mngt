@@ -12,23 +12,25 @@
                   @method("PATCH")
                     <div class="row">
                         <div class="col-md-6">
-                            <label>First Name</label>
+                            <label>Name</label>
                             <input type="text" class="form-control" name="emp_name" value="{{ $employee->emp_name }}">
                         </div>
                         <div class="col-md-6">
-                            <label>Last Name</label>
+                            <label>Email</label>
                             <input type="text" class="form-control" name="emp_name2" value="{{ $employee->emp_name2 }}">
                         </div>
+
                         <div class="col-md-6">
-                            <label>Student DOB</label>
-                            <input type="date" class="form-control" name="dob" value="{{ $employee->dob }}">
+                            <label>Password</label>
+                            <input type="text" class="form-control" name="password" value="{{ $employee->password}}">
                         </div>
-                        </div>
-                    
+
                         <div class="col-md-6">
-                            <label>phone</label>
-                            <input type="text" class="form-control" name="phone" value="{{ $employee->phone }}">
-                        </div>                       
+                            <label>Confrim Password</label>
+                            <input type="text" class="form-control" name="password" value="{{ $employee->password}}">
+                        </div>
+                      
+                                   
                     
 
                     <div class="row">
