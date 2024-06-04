@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <table class="table mt-5">
-    <button><a href="http://127.0.0.1:8000/pages" class="small-box-footer">Add<i class="fas fa-arrow-circle-right"></i></a></button>
+    <a href="http://127.0.0.1:8000/pages" class="small-box-footer">Add<i class="fas fa-arrow-circle-right"></i></a>
 </table>
 
 <table class="table mt-5">
