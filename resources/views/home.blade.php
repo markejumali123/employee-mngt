@@ -15,13 +15,13 @@
 
 <div class="small-box bg-info">
 <div class="inner">
-<h3>150</h3>
-<p>New Orders</p>
+<h3>3</h3>
+<p>BSIT 3A Examiners</p>
 </div>
 <div class="icon">
 <i class="ion ion-bag"></i>
 </div>
-<a href="http://127.0.0.1:8000/new" class="small-box-footer">More info<i class="fas fa-arrow-circle-right"></i></a>
+<a href="http://127.0.0.1:8000/new" class="small-box-footer">BSIT 3A<i class="fas fa-arrow-circle-right"></i></a>
 </div>
 </div>
 
