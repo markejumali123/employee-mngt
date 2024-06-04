@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-
     <div class="container">
         <h3 align="center" class="mt-5">Employee Registration</h3>
         <div class="row">
@@ -29,10 +28,11 @@
                         </div>
                     </div>
 
+
                     <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 mt-3">
-                       <input type="submit" class="btn btn-info" a href="http://127.0.0.1:8000/new-" value="Register"></a></button>
+                        <button ><a href="http://127.0.0.1:8000/new-"><input type="submit" class="btn btn-info" value="Register"></a></button>
                         </div>
                     </div>
                 </form>
@@ -41,7 +41,6 @@
             </div>
         </div>
     </div>
-
 @endsection
 @push('css')
     <style>

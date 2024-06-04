@@ -22,6 +22,7 @@
                             <td scope="col">{{ ++$key }}</td>
                             <td scope="col">{{ $employee->emp_name }}</td>
                             <td scope="col">{{ $employee->emp_name2 }}</td>
+                            <td scope="col">{{ $employee->admin }}<label>YES</label></td>
 
                             <td scope="col">
                             <a href="{{  route('employee.edit', $employee->id) }}">
