@@ -42,7 +42,7 @@
                 <a href="{{ route('new.index1') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        {{ __('pssttt') }}
+                        {{ __('reguisterd') }}
                     </p>
                 </a>
             </li>
@@ -50,16 +50,7 @@
             <li class="nav-item">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-circle nav-icon"></i>
-                    <p>
-                       Users Management
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview" style="display: none;">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Child menu</p>
+                    
                         </a>
                     </li>
                 </ul>
