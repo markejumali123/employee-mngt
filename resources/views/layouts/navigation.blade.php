@@ -20,33 +20,29 @@
                 </a>
             </li>
 
+
+            
+            <li class="nav-item">
+                <a href="{{ route('new.index1') }}" class="nav-link">
+                    <i class="nav-icon far fa-address-card"></i>
+                    <p>
+                        {{ __('USER') }}
+                    </p>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a href="{{ route('pages.index') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        {{ __('Employee Management') }}
+                        {{ __('BSIT-3A') }}
                     </p>
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="{{ route('about') }}" class="nav-link">
-                    <i class="nav-icon far fa-address-card"></i>
-                    <p>
-                        {{ __('System Management') }}
-                    </p>
-                </a>
-            </li>
 
-            <li class="nav-item">
-                <a href="{{ route('new.index1') }}" class="nav-link">
-                    <i class="nav-icon fas fa-users"></i>
-                    <p>
-                        {{ __('reguisterd') }}
-                    </p>
-                </a>
-            </li>
 
+<<<<<<< HEAD
             <li class="nav-item">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-circle nav-icon"></i>
@@ -55,6 +51,8 @@
                     </li>
                 </ul>
             </li>
+=======
+>>>>>>> 01ff406029f3a8c9c1b8ac88cf56f925aaaa9a96
         </ul>
     </nav>
     <!-- /.sidebar-menu -->
