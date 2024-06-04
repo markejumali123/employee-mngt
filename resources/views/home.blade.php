@@ -16,7 +16,7 @@
 <div class="small-box bg-info">
 <div class="inner">
 <h3>3</h3>
-<p>BSIT 3A</p>
+<p>BSIT 3A Examiners</p>
 </div>
 <div class="icon">
 <i class="ion ion-bag"></i>
