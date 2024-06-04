@@ -42,7 +42,7 @@
                 <a href="{{ route('about') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        {{ __('Joel-jay-markej') }}
+                        {{ __('HIKARU') }}
                     </p>
                 </a>
             </li>
