@@ -1,5 +1,15 @@
 @extends('layouts.app')
 @section('content')
+<table class="table mt-5">
+    <div class="row">
+</div>
+<li>
+<img src="dist/img/user1-128x128.jpg" alt="User Image">
+<a class="users-list-name" href="#">Alexander Pierce</a>
+<span class="users-list-date">Today</span>
+</li>
+    <div class="container">
+</div>
     <div class="container">
         <h3 align="center" class="mt-5">Employee Registration</h3>
         <div class="row">
@@ -28,11 +38,10 @@
                         </div>
                     </div>
 
-
                     <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 mt-3">
-                        <button ><a href="http://127.0.0.1:8000/new-"><input type="submit" class="btn btn-info" value="Register"></a></button>
+                       <input type="submit" class="btn btn-info" a href="http://127.0.0.1:8000/new-" value="Register"></a>
                         </div>
                     </div>
                 </form>
@@ -41,6 +50,7 @@
             </div>
         </div>
     </div>
+</table>
 @endsection
 @push('css')
     <style>
