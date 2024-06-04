@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div class="container">
-        <h3 align="center" class="mt-5">Employee Register</h3>
+        <h3 align="center" class="mt-5">Employee Registration</h3>
         <div class="row">
             <div class="col-md-2">
             </div>
